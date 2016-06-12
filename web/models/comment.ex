@@ -10,7 +10,7 @@ defmodule PhoenixBlog.Comment do
     timestamps
   end
 
-  @required_fields ~w(name content post)
+  @required_fields ~w(name content post_id)
   @optional_fields ~w()
 
   @doc """
